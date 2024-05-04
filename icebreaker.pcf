@@ -1,0 +1,8 @@
+set_io -nowarn clk_12mhz 35
+set_io -pullup yes RST_N 10
+
+set_io -nowarn led[0]    21
+set_io -nowarn led[1]    23
+set_io -nowarn led[2]    25
+set_io -nowarn led[3]    26
+set_io -nowarn led[4]    27

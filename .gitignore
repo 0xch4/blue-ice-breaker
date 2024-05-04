@@ -1,0 +1,7 @@
+*.v
+*.bo
+*.asc
+*.bin
+*.json
+
+test
