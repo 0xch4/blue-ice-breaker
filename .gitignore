@@ -1,7 +1,12 @@
 *.v
+*.h
+*.o
+*.ba
 *.bo
+*.so
 *.asc
 *.bin
+*.cxx
 *.json
 
 test
