@@ -13,11 +13,8 @@
 module pll(
 	input  clk_12mhz,
 	output clk_48mhz,
-	output nlocked
+	output locked
 	);
-
-wire locked;
-assign nlocked = !locked;
 
 SB_PLL40_PAD #(
 		.FEEDBACK_PATH("SIMPLE"),

@@ -10,7 +10,6 @@ import "BVI" pll =
 
         input_clock (clk_12mhz) = clk_12mhz;
         output_clock clk_48mhz(clk_48mhz);
-        same_family(clk_12mhz, clk_48mhz);
 
-        output_reset rst_lock(nlocked) clocked_by (clk_48mhz);
+        output_reset rst_lock(locked) clocked_by (clk_48mhz);
     endmodule
