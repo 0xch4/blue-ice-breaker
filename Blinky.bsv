@@ -61,5 +61,4 @@ module mkBlinkyTest (Empty);
 
 endmodule
 
-
 endpackage
